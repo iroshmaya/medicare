@@ -5,8 +5,33 @@ session_start();
 <!DOCTYPE html
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudlare.com/ajax/libs/font.awesome/4.7.0/css/font.awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.inputWithIcon input[type=text]{
+			padding-left:40px;
+			
+		}
+		.inputWithIcon{
+			position:relative;
+			
+		}
+		.inputWithIcon i{
+			position:absolute;
+			left:0;
+			top:6px;
+			padding:9px 8px;
+			color: Blue; 
+		}
+		.inputWithIcon input[type=text]:focus +i{
+			color: dodgerBlue;
+			
+		}
+		
+	</style>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>     
 	<header>
